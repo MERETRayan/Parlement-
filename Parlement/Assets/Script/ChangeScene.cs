@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
+    public int sceneLoad;
     public void ChangeSceneNinjaNaruto()
     {
-        SceneManager.LoadScene("Test");
+        SceneManager.LoadScene(sceneLoad);
     }
 }
